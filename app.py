@@ -177,6 +177,8 @@ async def handle_sockets(websocket, path):
                     continue
 
                 program = ';'.join(tokens[1:]).split('\n')
+                program.append(' ')
+                program.append(' ')
 
                 program = [li if len(li) > 0 else ' ' for li in program]
                 program = '\n'.join(program)
