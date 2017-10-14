@@ -10,7 +10,7 @@ import os
 
 os.chdir('./marblecomplete')
 
-from marblecomplete.marbles.environement import Env
+from marblecomplete.marbles.environment import Env
 from marblecomplete.marbles.interpreter import AsciiMarblesInterpreter
 from marblecomplete.marbles.callbacks import IOCallbacksStorageConstructor
 from marblecomplete.prettify import prettify
